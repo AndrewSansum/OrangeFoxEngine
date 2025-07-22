@@ -1,5 +1,5 @@
 import pygame
-from scenes.base import BaseScene, SwitchObserver
+from OrangeFoxEngine.scenes.base import BaseScene, SwitchObserver
 
 
 class App(SwitchObserver):
