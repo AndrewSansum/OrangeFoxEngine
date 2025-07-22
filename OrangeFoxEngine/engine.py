@@ -7,7 +7,6 @@ class App(SwitchObserver):
     SCREEN_HEIGHT: int = 224
 
     def __init__(self, initial_scene: BaseScene, fullscreen: bool = True):
-        pygame.init()
         self._fullscreen = fullscreen
         self._switch_scene(initial_scene)
 
